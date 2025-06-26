@@ -1,0 +1,67 @@
+body {
+    background: #ddd;
+    font-family: 'Gochi Hand';
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.postcard {
+    width: 800px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.postcardTop {
+    position: relative;
+    padding: 20px 20px 0 20px;    
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.postcardTop h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.postcardTop > img {
+    width: 100%;    
+    border-radius: 15px 15px 0 0;
+}
+
+.message {
+    position: absolute;
+    bottom: 20px;
+    background: #ece9e9;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.postcardBottom {
+    background: #ece9e9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-top: 2px solid rgb(158, 154, 154);
+    border-width: thin;
+}
+
+.postcardBottom h2 {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+p {
+    color: rgba(0, 0, 0, 0.589);
+}
