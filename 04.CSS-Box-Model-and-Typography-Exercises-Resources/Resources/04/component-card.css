@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 14px/1.5 Verdana, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Verdana, sans- serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+body {
+    font: inherit;
+    background-color: rgba(209, 207, 207, 0.678);
+}
+footer {
+    margin-top: 2em;
+}
+
+div.card {
+    margin: 150px;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 250px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 2%;
+    background-color: white;
+}
+
