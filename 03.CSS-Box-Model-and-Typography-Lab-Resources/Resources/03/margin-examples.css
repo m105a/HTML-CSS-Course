@@ -1,0 +1,34 @@
+div {
+    border: 2px solid black;
+    padding: 1em;
+}
+
+div.uniform {
+    margin: 20px;
+}
+
+div.non-uniform {
+    margin: 10px 30px 20px 40px;
+}
+
+div.negative {
+    margin-top: -20px;
+}
+
+/*
+
+1. First element – Uniform margin
+
+§ margin: 20px;
+
+2. Second element – Non-Uniform Padding
+
+§ margin: 10px 30px 20px 40px;
+
+· order is – top, right, bottom, left
+
+3. Third element – Negative margin
+
+§ margin: -20px;
+
+· In this case the only effect is that the element will be moved up 20px as it is impossible to move it negatively 20px in all directions */

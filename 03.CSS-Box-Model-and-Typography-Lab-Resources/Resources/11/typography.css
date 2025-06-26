@@ -1,0 +1,109 @@
+html {
+    font: 16px/1.4 Helvetica, sans-serif;
+}
+
+p, ol, ul {
+    padding-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul.square {
+    list-style: square;
+}
+ul.solid {
+    list-style: disc;
+}
+
+ul.transperant {
+    list-style: circle;    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, serif;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    margin-bottom: 1em
+}
+
+blockquote {
+    padding-left: 1.5rem;
+    border-left: 4px solid rgb(0,0,0,0.3);
+    font-style: italic;
+    margin:  0 3em;
+    margin-bottom: 1.5rem;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+table {
+    width: 100%;
+    margin: 1.5rem 0;
+    border-collapse: collapse;
+}
+
+table, 
+table th, 
+table td {    
+    border: 1px solid #ccc;
+}
+
+table td,
+table th {
+    padding: 1em, 1.2em;
+}
+table th {
+    text-align: left;
+    background: #ddd;
+}
+
+table tbody tr:nth-child(even) td {
+    background: #eee;
+}
+
+
+
+
+
+
+/* 
+Styling
+
+· HTML element should have the following styles
+
+Font-size – 16px
+
+· Line-height – 1.5
+
+· Font-family – Helvetica, sans-serif
+
+· Paragraphs, Ordered and Un-ordered lists should have padding-bottom – 1.5rem
+
+· Ordered and Un-ordered lists should have padding-left – 1.5rem
+
+· Headings should have the following styles
+
+· Line-height – 1.2
+
+· Margin-top – 1em
+
+· Margin-bottom – 0.5em
+
+· Font-family – Georgia
+
+· Add styles for tables, blockquote and hr according to the screenshot */
